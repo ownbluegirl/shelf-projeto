@@ -5,7 +5,7 @@
   "description": "Organizador pessoal de leituras para o projeto integrador de DevOps.",
   "scripts": {
     "start": "node server.js",
-    "test": "node --test",
+    "test": "node --test test/*.test.js",
     "check": "node --check server.js && node --check api/books.js && node --check public/app.js && node --check src/book-validation.js && node --check src/memory-repository.js"
   },
   "engines": {
